@@ -1,4 +1,4 @@
 FROM node:14
 WORKDIR /app
-COPY calculator.js .
+COPY cal.js .
 CMD ["node", "calculator.js"]
